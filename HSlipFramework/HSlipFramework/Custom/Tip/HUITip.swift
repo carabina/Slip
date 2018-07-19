@@ -16,7 +16,7 @@ public class HUITip: NSObject {
             label.textAlignment = .center;
             label.textColor = UIColor.white;
             label.backgroundColor = UIColor(white: 0, alpha: 0.8);
-            label.font = UIFont.systemFont(ofSize: 14, weight:.light);
+            label.font = UIFont.systemFont(ofSize: 14, weight:.regular);
             label.autoresizingMask = [.flexibleWidth, .flexibleHeight];
             return label;
         }();

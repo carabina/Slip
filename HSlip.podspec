@@ -19,6 +19,8 @@ Pod::Spec.new do |s|
   s.version      = "0.0.1"
   s.summary      = "swift UIs. Custom Views, UIs's Extension"
 
+  s.swift_version = '3.2'
+
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
@@ -39,7 +41,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
+  s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
