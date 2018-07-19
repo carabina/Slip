@@ -15,8 +15,8 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "HSlip"
-  s.version      = "0.0.2"
+  s.name         = "HSlips"
+  s.version      = "0.0.3"
   s.summary      = "swift UIs. Custom Views, UIs's Extension"
 
   s.swift_version = '3.2'
@@ -94,7 +94,7 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "HSlipFramework/**/*.swift"
-  s.exclude_files = "Classes/Exclude"
+#s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
